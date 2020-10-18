@@ -3,6 +3,7 @@ SmartDraw
 SmartDraw is a "two views" drawing application that will give the user a theme to draw in just a few second. The limited amount of time makes the drawing way funnier, but also uglier. After the countdown, your drawing is saved into your photo library.
 
 The target of this app is iOS 9.0 and above, and it is made for iPhones only.
+This project has been cloned from my other bitbucket account: https://bitbucket.org/7Zup/smartdraw, where you will be able to see the real branches/commit
 
 * [ScreenShots](#markdown-header-block-screenshots)
 * [Architecture](#markdown-header-architecture)
