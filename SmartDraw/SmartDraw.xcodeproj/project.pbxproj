@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EB97566B774475706784F77 /* libPods-SmartDraw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B7D7186967BD1EEEF770DC /* libPods-SmartDraw.a */; };
+		CF3FB6CDA7B4158ADE46FAFD /* libPods-SmartDrawTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C478B2BDE1F3F653CF0B5116 /* libPods-SmartDrawTests.a */; };
+		E74138492504377900E739AB /* HomeRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = E741383A2504377900E739AB /* HomeRouter.m */; };
+		E741384A2504377900E739AB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741383D2504377900E739AB /* HomeViewController.m */; };
+		E741384B2504377900E739AB /* HomeInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = E74138412504377900E739AB /* HomeInteractor.m */; };
+		E741384C2504377900E739AB /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E74138442504377900E739AB /* HomeModel.m */; };
+		E741384D2504377900E739AB /* HomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E74138472504377900E739AB /* HomePresenter.m */; };
+		E75ACFC72505838500D3C616 /* DrawboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75ACFC62505838500D3C616 /* DrawboardView.xib */; };
+		E77D2C672505883800D47DB9 /* DrawBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E75ACFCB250584EE00D3C616 /* DrawBoardView.m */; };
+		E7834B1B25044F8F005570C5 /* DrawRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = E7834B0C25044F8F005570C5 /* DrawRouter.m */; };
+		E7834B1C25044F8F005570C5 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7834B0F25044F8F005570C5 /* DrawViewController.m */; };
+		E7834B1D25044F8F005570C5 /* DrawInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = E7834B1325044F8F005570C5 /* DrawInteractor.m */; };
+		E7834B1E25044F8F005570C5 /* DrawModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7834B1625044F8F005570C5 /* DrawModel.m */; };
+		E7834B1F25044F8F005570C5 /* DrawPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E7834B1925044F8F005570C5 /* DrawPresenter.m */; };
+		E793DDB724FEEACF00437393 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E793DDB924FEEACF00437393 /* Localizable.strings */; };
+		E7BCDCEC24FECB6900E996C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BCDCEB24FECB6900E996C3 /* AppDelegate.m */; };
+		E7BCDCF224FECB6900E996C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BCDCF024FECB6900E996C3 /* Main.storyboard */; };
+		E7BCDCF524FECB6900E996C3 /* SmartDraw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7BCDCF324FECB6900E996C3 /* SmartDraw.xcdatamodeld */; };
+		E7BCDCF724FECB6C00E996C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BCDCF624FECB6C00E996C3 /* Assets.xcassets */; };
+		E7BCDCFA24FECB6C00E996C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BCDCF824FECB6C00E996C3 /* LaunchScreen.storyboard */; };
+		E7BCDCFD24FECB6C00E996C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BCDCFC24FECB6C00E996C3 /* main.m */; };
+		E7BCDD0724FECB6C00E996C3 /* HomeBusinessLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BCDD0624FECB6C00E996C3 /* HomeBusinessLogicTests.m */; };
+		E7C1AE1125068FFD008D16A0 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C1AE1025068FFD008D16A0 /* UIView+Extension.m */; };
+		E7C1AE1425069186008D16A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7C1AE1625069186008D16A0 /* InfoPlist.strings */; };
+		E7F9DC7525052E0200EBBC90 /* ColorCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F9DC7425052E0200EBBC90 /* ColorCollectionViewController.m */; };
+		E7FE7B932507CC840000B148 /* AppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FE7B922507CC840000B148 /* AppColors.m */; };
+		E7FE7B972507D84A0000B148 /* BackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7FE7B962507D84A0000B148 /* BackgroundView.xib */; };
+		E7FE7B992507D8E90000B148 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FE7B982507D8E90000B148 /* BackgroundView.m */; };
+		E7FE7B9C25081EBA0000B148 /* DrawBusinessLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FE7B9B25081EBA0000B148 /* DrawBusinessLogicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7BCDD0324FECB6C00E996C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BCDCDF24FECB6900E996C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7BCDCE624FECB6900E996C3;
+			remoteInfo = SmartDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B878157DFFC4EFD27BB97D /* Pods-SmartDrawTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartDrawTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartDrawTests/Pods-SmartDrawTests.release.xcconfig"; sourceTree = "<group>"; };
+		32AF055BD02A1A4D9529DD41 /* Pods-SmartDraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartDraw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartDraw/Pods-SmartDraw.debug.xcconfig"; sourceTree = "<group>"; };
+		431AFA9BA96ADDE41E33CD30 /* Pods-SmartDraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartDraw.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartDraw/Pods-SmartDraw.release.xcconfig"; sourceTree = "<group>"; };
+		80B7D7186967BD1EEEF770DC /* libPods-SmartDraw.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartDraw.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C478B2BDE1F3F653CF0B5116 /* libPods-SmartDrawTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartDrawTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21AA50EC26040F2E8A89E6E /* Pods-SmartDrawTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartDrawTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartDrawTests/Pods-SmartDrawTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E741383A2504377900E739AB /* HomeRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeRouter.m; sourceTree = "<group>"; };
+		E741383B2504377900E739AB /* HomeRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeRouter.h; sourceTree = "<group>"; };
+		E741383D2504377900E739AB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E741383E2504377900E739AB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E74138402504377900E739AB /* HomeInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeInteractor.h; sourceTree = "<group>"; };
+		E74138412504377900E739AB /* HomeInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeInteractor.m; sourceTree = "<group>"; };
+		E74138442504377900E739AB /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		E74138452504377900E739AB /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		E74138472504377900E739AB /* HomePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePresenter.m; sourceTree = "<group>"; };
+		E74138482504377900E739AB /* HomePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePresenter.h; sourceTree = "<group>"; };
+		E75ACFC62505838500D3C616 /* DrawboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawboardView.xib; sourceTree = "<group>"; };
+		E75ACFCA250583A100D3C616 /* DrawBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawBoardView.h; sourceTree = "<group>"; };
+		E75ACFCB250584EE00D3C616 /* DrawBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DrawBoardView.m; path = "/Users/fabricefroehly/Documents/Projects/SmartDraw - iOS App/SmartDraw/SmartDraw/Common/DrawboardView/DrawBoardView.m"; sourceTree = "<absolute>"; };
+		E7834B0C25044F8F005570C5 /* DrawRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRouter.m; sourceTree = "<group>"; };
+		E7834B0D25044F8F005570C5 /* DrawRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRouter.h; sourceTree = "<group>"; };
+		E7834B0F25044F8F005570C5 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		E7834B1025044F8F005570C5 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		E7834B1225044F8F005570C5 /* DrawInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawInteractor.h; sourceTree = "<group>"; };
+		E7834B1325044F8F005570C5 /* DrawInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawInteractor.m; sourceTree = "<group>"; };
+		E7834B1625044F8F005570C5 /* DrawModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawModel.m; sourceTree = "<group>"; };
+		E7834B1725044F8F005570C5 /* DrawModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawModel.h; sourceTree = "<group>"; };
+		E7834B1925044F8F005570C5 /* DrawPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPresenter.m; sourceTree = "<group>"; };
+		E7834B1A25044F8F005570C5 /* DrawPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPresenter.h; sourceTree = "<group>"; };
+		E793DDB424FEEA5600437393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E793DDB824FEEACF00437393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E793DDBA24FEEAE900437393 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7BCDCE724FECB6900E996C3 /* SmartDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BCDCEA24FECB6900E996C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7BCDCEB24FECB6900E996C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7BCDCF124FECB6900E996C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7BCDCF424FECB6900E996C3 /* SmartDraw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartDraw.xcdatamodel; sourceTree = "<group>"; };
+		E7BCDCF624FECB6C00E996C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7BCDCFB24FECB6C00E996C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BCDCFC24FECB6C00E996C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7BCDD0224FECB6C00E996C3 /* SmartDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BCDD0624FECB6C00E996C3 /* HomeBusinessLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeBusinessLogicTests.m; sourceTree = "<group>"; };
+		E7BCDD0824FECB6C00E996C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C1AE0F25068FFD008D16A0 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E7C1AE1025068FFD008D16A0 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E7C1AE1525069186008D16A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7C1AE1725069189008D16A0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7F9DC7425052E0200EBBC90 /* ColorCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorCollectionViewController.m; sourceTree = "<group>"; };
+		E7F9DC7625052E0C00EBBC90 /* ColorCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorCollectionViewController.h; sourceTree = "<group>"; };
+		E7FE7B912507CC840000B148 /* AppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppColors.h; sourceTree = "<group>"; };
+		E7FE7B922507CC840000B148 /* AppColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppColors.m; sourceTree = "<group>"; };
+		E7FE7B962507D84A0000B148 /* BackgroundView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackgroundView.xib; sourceTree = "<group>"; };
+		E7FE7B982507D8E90000B148 /* BackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		E7FE7B9A2507D8F70000B148 /* BackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		E7FE7B9B25081EBA0000B148 /* DrawBusinessLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawBusinessLogicTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7BCDCE424FECB6900E996C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB97566B774475706784F77 /* libPods-SmartDraw.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BCDCFF24FECB6C00E996C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3FB6CDA7B4158ADE46FAFD /* libPods-SmartDrawTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41568BE78FC76061DD6C0331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B7D7186967BD1EEEF770DC /* libPods-SmartDraw.a */,
+				C478B2BDE1F3F653CF0B5116 /* libPods-SmartDrawTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7391C7345C31ED29CBFD6F78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32AF055BD02A1A4D9529DD41 /* Pods-SmartDraw.debug.xcconfig */,
+				431AFA9BA96ADDE41E33CD30 /* Pods-SmartDraw.release.xcconfig */,
+				E21AA50EC26040F2E8A89E6E /* Pods-SmartDrawTests.debug.xcconfig */,
+				04B878157DFFC4EFD27BB97D /* Pods-SmartDrawTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E71533FC24FFDC5100E2A97C /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				E7BCDCF324FECB6900E996C3 /* SmartDraw.xcdatamodeld */,
+				E793DDB924FEEACF00437393 /* Localizable.strings */,
+				E7BCDCF624FECB6C00E996C3 /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		E71533FD24FFDC7700E2A97C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E7BCDCF824FECB6C00E996C3 /* LaunchScreen.storyboard */,
+				E7BCDCEA24FECB6900E996C3 /* AppDelegate.h */,
+				E7BCDCEB24FECB6900E996C3 /* AppDelegate.m */,
+				E7BCDCFC24FECB6C00E996C3 /* main.m */,
+				E7BCDCFB24FECB6C00E996C3 /* Info.plist */,
+				E7C1AE1625069186008D16A0 /* InfoPlist.strings */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E71533FE24FFDCC500E2A97C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E7834B0A25044F8F005570C5 /* Draw */,
+				E74138382504377900E739AB /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E74138382504377900E739AB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E741383C2504377900E739AB /* 1 - View */,
+				E74138462504377900E739AB /* 2 - Presenter */,
+				E741383F2504377900E739AB /* 3 - Interactor */,
+				E74138432504377900E739AB /* 4 - Entity */,
+				E74138392504377900E739AB /* 5 - Router */,
+			);
+			name = Home;
+			path = SmartDraw/Features/Home;
+			sourceTree = SOURCE_ROOT;
+		};
+		E74138392504377900E739AB /* 5 - Router */ = {
+			isa = PBXGroup;
+			children = (
+				E741383A2504377900E739AB /* HomeRouter.m */,
+				E741383B2504377900E739AB /* HomeRouter.h */,
+			);
+			path = "5 - Router";
+			sourceTree = "<group>";
+		};
+		E741383C2504377900E739AB /* 1 - View */ = {
+			isa = PBXGroup;
+			children = (
+				E741383D2504377900E739AB /* HomeViewController.m */,
+				E741383E2504377900E739AB /* HomeViewController.h */,
+			);
+			path = "1 - View";
+			sourceTree = "<group>";
+		};
+		E741383F2504377900E739AB /* 3 - Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E74138412504377900E739AB /* HomeInteractor.m */,
+				E74138402504377900E739AB /* HomeInteractor.h */,
+			);
+			path = "3 - Interactor";
+			sourceTree = "<group>";
+		};
+		E74138432504377900E739AB /* 4 - Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E74138442504377900E739AB /* HomeModel.m */,
+				E74138452504377900E739AB /* HomeModel.h */,
+			);
+			path = "4 - Entity";
+			sourceTree = "<group>";
+		};
+		E74138462504377900E739AB /* 2 - Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E74138472504377900E739AB /* HomePresenter.m */,
+				E74138482504377900E739AB /* HomePresenter.h */,
+			);
+			path = "2 - Presenter";
+			sourceTree = "<group>";
+		};
+		E75ACFC52505835500D3C616 /* DrawboardView */ = {
+			isa = PBXGroup;
+			children = (
+				E75ACFC62505838500D3C616 /* DrawboardView.xib */,
+				E75ACFCB250584EE00D3C616 /* DrawBoardView.m */,
+				E75ACFCA250583A100D3C616 /* DrawBoardView.h */,
+			);
+			path = DrawboardView;
+			sourceTree = "<group>";
+		};
+		E7834B0A25044F8F005570C5 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				E7834B0E25044F8F005570C5 /* 1 - View */,
+				E7834B1825044F8F005570C5 /* 2 - Presenter */,
+				E7834B1125044F8F005570C5 /* 3 - Interactor */,
+				E7834B1525044F8F005570C5 /* 4 - Entity */,
+				E7834B0B25044F8F005570C5 /* 5 - Router */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		E7834B0B25044F8F005570C5 /* 5 - Router */ = {
+			isa = PBXGroup;
+			children = (
+				E7834B0C25044F8F005570C5 /* DrawRouter.m */,
+				E7834B0D25044F8F005570C5 /* DrawRouter.h */,
+			);
+			path = "5 - Router";
+			sourceTree = "<group>";
+		};
+		E7834B0E25044F8F005570C5 /* 1 - View */ = {
+			isa = PBXGroup;
+			children = (
+				E7834B0F25044F8F005570C5 /* DrawViewController.m */,
+				E7834B1025044F8F005570C5 /* DrawViewController.h */,
+				E7F9DC7425052E0200EBBC90 /* ColorCollectionViewController.m */,
+				E7F9DC7625052E0C00EBBC90 /* ColorCollectionViewController.h */,
+			);
+			path = "1 - View";
+			sourceTree = "<group>";
+		};
+		E7834B1125044F8F005570C5 /* 3 - Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E7834B1325044F8F005570C5 /* DrawInteractor.m */,
+				E7834B1225044F8F005570C5 /* DrawInteractor.h */,
+			);
+			path = "3 - Interactor";
+			sourceTree = "<group>";
+		};
+		E7834B1525044F8F005570C5 /* 4 - Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E7834B1625044F8F005570C5 /* DrawModel.m */,
+				E7834B1725044F8F005570C5 /* DrawModel.h */,
+			);
+			path = "4 - Entity";
+			sourceTree = "<group>";
+		};
+		E7834B1825044F8F005570C5 /* 2 - Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E7834B1925044F8F005570C5 /* DrawPresenter.m */,
+				E7834B1A25044F8F005570C5 /* DrawPresenter.h */,
+			);
+			path = "2 - Presenter";
+			sourceTree = "<group>";
+		};
+		E789B13E2505829A00CBB991 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E7FE7B952507D8250000B148 /* BackgroundView */,
+				E75ACFC52505835500D3C616 /* DrawboardView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E7BCDCDE24FECB6900E996C3 = {
+			isa = PBXGroup;
+			children = (
+				E7BCDCE924FECB6900E996C3 /* SmartDraw */,
+				E7BCDD0524FECB6C00E996C3 /* SmartDrawTests */,
+				E7BCDCE824FECB6900E996C3 /* Products */,
+				7391C7345C31ED29CBFD6F78 /* Pods */,
+				41568BE78FC76061DD6C0331 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7BCDCE824FECB6900E996C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7BCDCE724FECB6900E996C3 /* SmartDraw.app */,
+				E7BCDD0224FECB6C00E996C3 /* SmartDrawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7BCDCE924FECB6900E996C3 /* SmartDraw */ = {
+			isa = PBXGroup;
+			children = (
+				E7C1AE0D25068FFD008D16A0 /* Utils */,
+				E7BCDCF024FECB6900E996C3 /* Main.storyboard */,
+				E789B13E2505829A00CBB991 /* Common */,
+				E71533FE24FFDCC500E2A97C /* Features */,
+				E71533FD24FFDC7700E2A97C /* Settings */,
+				E71533FC24FFDC5100E2A97C /* Ressources */,
+			);
+			path = SmartDraw;
+			sourceTree = "<group>";
+		};
+		E7BCDD0524FECB6C00E996C3 /* SmartDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7BCDD0624FECB6C00E996C3 /* HomeBusinessLogicTests.m */,
+				E7BCDD0824FECB6C00E996C3 /* Info.plist */,
+				E7FE7B9B25081EBA0000B148 /* DrawBusinessLogicTests.m */,
+			);
+			path = SmartDrawTests;
+			sourceTree = "<group>";
+		};
+		E7C1AE0D25068FFD008D16A0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E7FE7B8D2507CABE0000B148 /* Color */,
+				E7C1AE0E25068FFD008D16A0 /* UIVIew */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E7C1AE0E25068FFD008D16A0 /* UIVIew */ = {
+			isa = PBXGroup;
+			children = (
+				E7C1AE0F25068FFD008D16A0 /* UIView+Extension.h */,
+				E7C1AE1025068FFD008D16A0 /* UIView+Extension.m */,
+			);
+			path = UIVIew;
+			sourceTree = "<group>";
+		};
+		E7FE7B8D2507CABE0000B148 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				E7FE7B912507CC840000B148 /* AppColors.h */,
+				E7FE7B922507CC840000B148 /* AppColors.m */,
+			);
+			name = Color;
+			path = SmartDraw/Utils/Color;
+			sourceTree = SOURCE_ROOT;
+		};
+		E7FE7B952507D8250000B148 /* BackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				E7FE7B962507D84A0000B148 /* BackgroundView.xib */,
+				E7FE7B982507D8E90000B148 /* BackgroundView.m */,
+				E7FE7B9A2507D8F70000B148 /* BackgroundView.h */,
+			);
+			path = BackgroundView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7BCDCE624FECB6900E996C3 /* SmartDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BCDD0B24FECB6C00E996C3 /* Build configuration list for PBXNativeTarget "SmartDraw" */;
+			buildPhases = (
+				1F4D5A4141100D98F3540F26 /* [CP] Check Pods Manifest.lock */,
+				E7BCDCE324FECB6900E996C3 /* Sources */,
+				E7BCDCE424FECB6900E996C3 /* Frameworks */,
+				E7BCDCE524FECB6900E996C3 /* Resources */,
+				DA90EA2AE3A542421161F774 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartDraw;
+			productName = SmartDraw;
+			productReference = E7BCDCE724FECB6900E996C3 /* SmartDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7BCDD0124FECB6C00E996C3 /* SmartDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BCDD0E24FECB6C00E996C3 /* Build configuration list for PBXNativeTarget "SmartDrawTests" */;
+			buildPhases = (
+				3D18B388FA17E4B16239ECA8 /* [CP] Check Pods Manifest.lock */,
+				E7BCDCFE24FECB6C00E996C3 /* Sources */,
+				E7BCDCFF24FECB6C00E996C3 /* Frameworks */,
+				E7BCDD0024FECB6C00E996C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7BCDD0424FECB6C00E996C3 /* PBXTargetDependency */,
+			);
+			name = SmartDrawTests;
+			productName = SmartDrawTests;
+			productReference = E7BCDD0224FECB6C00E996C3 /* SmartDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7BCDCDF24FECB6900E996C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Fabrice Froehly";
+				TargetAttributes = {
+					E7BCDCE624FECB6900E996C3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E7BCDD0124FECB6C00E996C3 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E7BCDCE624FECB6900E996C3;
+					};
+				};
+			};
+			buildConfigurationList = E7BCDCE224FECB6900E996C3 /* Build configuration list for PBXProject "SmartDraw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = E7BCDCDE24FECB6900E996C3;
+			productRefGroup = E7BCDCE824FECB6900E996C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7BCDCE624FECB6900E996C3 /* SmartDraw */,
+				E7BCDD0124FECB6C00E996C3 /* SmartDrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7BCDCE524FECB6900E996C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FE7B972507D84A0000B148 /* BackgroundView.xib in Resources */,
+				E7BCDCFA24FECB6C00E996C3 /* LaunchScreen.storyboard in Resources */,
+				E7C1AE1425069186008D16A0 /* InfoPlist.strings in Resources */,
+				E75ACFC72505838500D3C616 /* DrawboardView.xib in Resources */,
+				E793DDB724FEEACF00437393 /* Localizable.strings in Resources */,
+				E7BCDCF724FECB6C00E996C3 /* Assets.xcassets in Resources */,
+				E7BCDCF224FECB6900E996C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BCDD0024FECB6C00E996C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F4D5A4141100D98F3540F26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartDraw-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D18B388FA17E4B16239ECA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartDrawTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA90EA2AE3A542421161F774 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartDraw/Pods-SmartDraw-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FCAlertView/FCAlertView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FCAlertView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartDraw/Pods-SmartDraw-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7BCDCE324FECB6900E996C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77D2C672505883800D47DB9 /* DrawBoardView.m in Sources */,
+				E7834B1D25044F8F005570C5 /* DrawInteractor.m in Sources */,
+				E7834B1E25044F8F005570C5 /* DrawModel.m in Sources */,
+				E7BCDCEC24FECB6900E996C3 /* AppDelegate.m in Sources */,
+				E741384B2504377900E739AB /* HomeInteractor.m in Sources */,
+				E741384D2504377900E739AB /* HomePresenter.m in Sources */,
+				E7F9DC7525052E0200EBBC90 /* ColorCollectionViewController.m in Sources */,
+				E7BCDCFD24FECB6C00E996C3 /* main.m in Sources */,
+				E7FE7B992507D8E90000B148 /* BackgroundView.m in Sources */,
+				E7C1AE1125068FFD008D16A0 /* UIView+Extension.m in Sources */,
+				E7834B1F25044F8F005570C5 /* DrawPresenter.m in Sources */,
+				E7834B1B25044F8F005570C5 /* DrawRouter.m in Sources */,
+				E741384C2504377900E739AB /* HomeModel.m in Sources */,
+				E74138492504377900E739AB /* HomeRouter.m in Sources */,
+				E7834B1C25044F8F005570C5 /* DrawViewController.m in Sources */,
+				E7FE7B932507CC840000B148 /* AppColors.m in Sources */,
+				E7BCDCF524FECB6900E996C3 /* SmartDraw.xcdatamodeld in Sources */,
+				E741384A2504377900E739AB /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BCDCFE24FECB6C00E996C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FE7B9C25081EBA0000B148 /* DrawBusinessLogicTests.m in Sources */,
+				E7BCDD0724FECB6C00E996C3 /* HomeBusinessLogicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7BCDD0424FECB6C00E996C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7BCDCE624FECB6900E996C3 /* SmartDraw */;
+			targetProxy = E7BCDD0324FECB6C00E996C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E793DDB924FEEACF00437393 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E793DDB824FEEACF00437393 /* en */,
+				E793DDBA24FEEAE900437393 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E7BCDCF024FECB6900E996C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BCDCF124FECB6900E996C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7BCDCF824FECB6C00E996C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E793DDB424FEEA5600437393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E7C1AE1625069186008D16A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7C1AE1525069186008D16A0 /* en */,
+				E7C1AE1725069189008D16A0 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7BCDD0924FECB6C00E996C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7BCDD0A24FECB6C00E996C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7BCDD0C24FECB6C00E996C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32AF055BD02A1A4D9529DD41 /* Pods-SmartDraw.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58TH6PGDXM;
+				INFOPLIST_FILE = SmartDraw/Settings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = farmbotdofus.com.test.SmartDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E7BCDD0D24FECB6C00E996C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431AFA9BA96ADDE41E33CD30 /* Pods-SmartDraw.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58TH6PGDXM;
+				INFOPLIST_FILE = SmartDraw/Settings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = farmbotdofus.com.test.SmartDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E7BCDD0F24FECB6C00E996C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21AA50EC26040F2E8A89E6E /* Pods-SmartDrawTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58TH6PGDXM;
+				INFOPLIST_FILE = SmartDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = farmbotdofus.com.test.SmartDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartDraw.app/SmartDraw";
+			};
+			name = Debug;
+		};
+		E7BCDD1024FECB6C00E996C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B878157DFFC4EFD27BB97D /* Pods-SmartDrawTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58TH6PGDXM;
+				INFOPLIST_FILE = SmartDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = farmbotdofus.com.test.SmartDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartDraw.app/SmartDraw";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7BCDCE224FECB6900E996C3 /* Build configuration list for PBXProject "SmartDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BCDD0924FECB6C00E996C3 /* Debug */,
+				E7BCDD0A24FECB6C00E996C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BCDD0B24FECB6C00E996C3 /* Build configuration list for PBXNativeTarget "SmartDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BCDD0C24FECB6C00E996C3 /* Debug */,
+				E7BCDD0D24FECB6C00E996C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BCDD0E24FECB6C00E996C3 /* Build configuration list for PBXNativeTarget "SmartDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BCDD0F24FECB6C00E996C3 /* Debug */,
+				E7BCDD1024FECB6C00E996C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7BCDCF324FECB6900E996C3 /* SmartDraw.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7BCDCF424FECB6900E996C3 /* SmartDraw.xcdatamodel */,
+			);
+			currentVersion = E7BCDCF424FECB6900E996C3 /* SmartDraw.xcdatamodel */;
+			path = SmartDraw.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E7BCDCDF24FECB6900E996C3 /* Project object */;
+}

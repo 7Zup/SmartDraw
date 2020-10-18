@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  SmartDraw
+
+  Created by Fabrice Froehly on 01/09/2020.
+  Copyright © 2020 Fabrice Froehly. All rights reserved.
+*/
+
+// HomeView - Start button
+"HomeViewStartButton" = "Let's go !";
+
+// HomeView - Explenation button
+"HomeViewExplenationLabel" = "Every one of your masterpiece is saved into your photo library.\nBrace yourself !";
+
+// HomeView - Themes
+"HomeViewTheme0" = "a House";
+"HomeViewTheme1" = "a Car";
+"HomeViewTheme2" = "a Dog";
+"HomeViewTheme3" = "a Cat";
+"HomeViewTheme4" = "a Bike";
+"HomeViewTheme5" = "a Flower";
+"HomeViewTheme6" = "an Elephant";
+
+// DrawView - SuccessPopUpTitle
+"DrawViewSuccessPopUpTitle" = "Success";
+
+// DrawView - SuccessPopUpMessage
+"DrawViewSuccessPopUpMessage" = "Your masterpiece has been saved into your library";
+
+// DrawView - SuccessPopUpButton
+"DrawViewSuccessPopUpButton" = "Understood";
+
+// DrawView - SuccessPopUpTitle
+"DrawViewFailurePopUpTitle" = "Error";
+
+// DrawView - SuccessPopUpMessage
+"DrawViewFailurePopUpMessage" = "Sadly, we couldnt save your masterpiece. Try enabling your iPhone's permissions for SmartView";
+
+// DrawView - SuccessPopUpButton
+"DrawViewFailurePopUpButton" = "Understood";
+
+// Common - Timer Unit Second
+"CommonTimerUnitSecond" = "s";
+
+// Common - Dessiner prefix
+"CommonDrawPrefix" = "Draw ";

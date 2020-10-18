@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  SmartDraw
+
+  Created by Fabrice Froehly on 01/09/2020.
+  Copyright © 2020 Fabrice Froehly. All rights reserved.
+*/
+
+// Start button
+"HomeViewStartButton" = "C'est parti !";
+
+// MainStoryboard - Explenation button
+"HomeViewExplenationLabel" = "Tous vos chef-d'oeuvres sont enregistrés dans votre album photo.\nA vos pinceaux !";
+
+// HomeView - Themes
+"HomeViewTheme0" = "une Maison";
+"HomeViewTheme1" = "une Voiture";
+"HomeViewTheme2" = "un Chien";
+"HomeViewTheme3" = "un Chat";
+"HomeViewTheme4" = "un Vélo";
+"HomeViewTheme5" = "une Fleur";
+"HomeViewTheme6" = "un Elephant";
+
+// DrawView - SuccessPopUpTitle
+"DrawViewSuccessPopUpTitle" = "Bravo";
+
+// DrawView - SuccessPopUpMessage
+"DrawViewSuccessPopUpMessage" = "Votre chef-d'oeuvre a été enregistré dans votre album photo";
+
+// DrawView - SuccessPopUpButton
+"DrawViewSuccessPopUpButton" = "C'est compris";
+
+// DrawView - SuccessPopUpTitle
+"DrawViewFailurePopUpTitle" = "Erreur";
+
+// DrawView - SuccessPopUpMessage
+"DrawViewFailurePopUpMessage" = "Malheureusement, nous ne pouvions enregistrer votre dessin. Essayez de changer les permissions de l'application SmartDraw";
+
+// DrawView - SuccessPopUpButton
+"DrawViewFailurePopUpButton" = "C'est compris";
+
+// Common - Timer Unit Second
+"CommonTimerUnitSecond" = "s";
+
+// Common - Dessiner prefix
+"CommonDrawPrefix" = "Dessine ";

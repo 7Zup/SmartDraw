@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  SmartDraw
+
+  Created by Fabrice Froehly on 07/09/2020.
+  Copyright © 2020 Fabrice Froehly. All rights reserved.
+*/
+
+// Info.plist
+NSPhotoLibraryAddUsageDescription = "SmartDraw demande l'accès à l'album photo afin d'y enregistrer vos chefs-d'oeuvre";

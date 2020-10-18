@@ -1,0 +1,28 @@
+PODS:
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - FCAlertView (1.4.0)
+  - Mantle (2.1.1):
+    - Mantle/extobjc (= 2.1.1)
+  - Mantle/extobjc (2.1.1)
+
+DEPENDENCIES:
+  - Colours (~> 5.13)
+  - FCAlertView (~> 1.4)
+  - Mantle (~> 2.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Colours
+    - FCAlertView
+    - Mantle
+
+SPEC CHECKSUMS:
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  FCAlertView: fdddd63381898c1d1a5a20c9f084fbd2c6d12f8b
+  Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
+
+PODFILE CHECKSUM: f903119a54857bbd775e907c4530bc3000f46435
+
+COCOAPODS: 1.5.3

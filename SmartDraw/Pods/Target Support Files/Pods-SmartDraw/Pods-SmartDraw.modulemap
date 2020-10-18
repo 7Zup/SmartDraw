@@ -1,0 +1,6 @@
+module Pods_SmartDraw {
+  umbrella header "Pods-SmartDraw-umbrella.h"
+
+  export *
+  module * { export * }
+}
